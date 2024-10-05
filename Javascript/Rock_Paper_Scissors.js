@@ -49,7 +49,7 @@ function rockPaperScissorsLizardSpock(player1, player2) {
   *                         contains the element specified—in this case, player2.
   */
  
-  if (winConditions[player1].includes(player2)) {   
+  if (winConditions[player1].includes(player2)) {    // access a value in an object in JavaScript.
     return "Player 1 Won!";
   } else {
     return "Player 2 Won!";
